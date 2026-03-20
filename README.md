@@ -7,13 +7,13 @@ The program works by reading the input file line by line ensuring that each entr
 ### Input File Format
 Each line in the input file represents one user and it must contain five entries or fields which are seperated by colons. 
 Each entry must contain the following fields (in order):
-1. Username
+1. Username<br>
     a. Placing a '#' in the front will skip the creation of that user.
 3. Password
 4. First Name
 5. Last Name
-6. Group(s)
-    a. Use a comma to separate if user belongs in more than one group.
+6. Group(s)<br>
+    a. Use a comma to separate if user belongs in more than one group.<br>
     b. Use a '-' if user does not have a group.
 ### Command Execution
 User may need to set the Python file to be executable by using: chmod +x create-user.py
